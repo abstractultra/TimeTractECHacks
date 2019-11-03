@@ -1,4 +1,4 @@
-#TimeTract
+# TimeTract
 
 As humans, we are terrible at keeping track of time and are often unaware of how our time is spent. RescueTime is a passive time-tracking app that allows you to quickly view the breakdown of your time, providing detailed statistics and eye-opening truths that motivate you to start using your time in a more efficient way.
 
