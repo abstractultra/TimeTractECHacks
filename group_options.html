@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="css/sign_create.css"/>
+  <title>Pact Manager</title>
+  <link href="https://fonts.googleapis.com/css?family=Cantarell|Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="content_area">
+  <h1>
+    Pact Manager
+  </h1>
+  <form action="scripts/create_group.php" method="post">
+    Group Name: <input type="text" name="name"/><br/>
+    Group Password: <input type="password" name="password"/><br/>
+    <input type="submit" value="Create Group" method="post"/>
+  </form>
+  <form action="scripts/join_group.php" method="post">
+    Group ID: <input type="text" name="group_id" /><br/>
+    Group Password: <input type="password" name="password" /><br/>
+    <input type="submit" value="Join Group" />
+  </form>
+</div>
+</body>
+</html>

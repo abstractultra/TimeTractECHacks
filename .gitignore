@@ -1,0 +1,5 @@
+# ignore sql credentials
+credentials/
+accounts/profile_photos
+.htaccess
+.DS_Store

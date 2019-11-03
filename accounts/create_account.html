@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <link rel="stylesheet" href="../css/sign_create.css"/>
+    <title>Account Creation</title>
+    <link href="https://fonts.googleapis.com/css?family=Cantarell|Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="content_area">
+<h1>
+    Account Creation
+</h1>
+    <form action="../scripts/acc_create.php">
+        <input type="text" placeholder="Username" name="username"/><br/>
+        <input type="text" placeholder="Display Name" name="display_name"/><br/>
+        <input type="text" placeholder="Email" name="email"/><br/>
+        <input type="text" placeholder="RescueTime API Token" name="api_key"/><br/>
+        <input type="password" placeholder="Password" name="password"/><br/>
+        <input type="submit" value="Register" formmethod="post"/>
+    </form>
+</div>
+</body>
+</html>
